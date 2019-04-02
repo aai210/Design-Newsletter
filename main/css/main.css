@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #48c6ef 0%, #6f86d6 100%);
+    margin: 22px;    
+}
+
+.main {
+    margin: auto;
+    padding: 32px 26px 30px 26px;
+}
+
+section {
+    margin: auto;
+    width: 600px;
+    height: 708px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.08);
+}
+
+#hed {
+    display: flex;
+}
+
+h1 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+h2 {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #999999bd;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    width: 540px;
+    line-height: 23px;
+    margin: 15px 0 15px 0px;
+}
+
+.rm {
+    color: #444444;
+    font-weight: 600;
+}
+
+.rm:hover {
+    color: #49c3f1;
+}
+
+p {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-top: 0px;
+}
+
+#border {
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 48px;
+    margin-bottom: 38px;
+}
+
+.icons {
+    width: 198px;
+    margin: auto;
+    font-size: 13pt;
+}
+
+.fa-twitter, .fa-instagram, .fa-tumblr, .fa-youtube  {
+   margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-instagram:hover {
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-tumblr:hover {
+    color: #35465c;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
